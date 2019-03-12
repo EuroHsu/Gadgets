@@ -1,0 +1,19 @@
+{
+  "name": "mingtool",
+  "version": "0.0.1",
+  "description": "Some handy tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EuroHsu/MingTool.git"
+  },
+  "author": "EuroHsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EuroHsu/MingTool/issues"
+  },
+  "homepage": "https://github.com/EuroHsu/MingTool#readme"
+}
