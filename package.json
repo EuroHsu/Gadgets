@@ -1,10 +1,14 @@
 {
   "name": "mingtool",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Some handy tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/EuroHsu/MingTool/issues"
   },
-  "homepage": "https://github.com/EuroHsu/MingTool#readme"
+  "homepage": "https://github.com/EuroHsu/MingTool#readme",
+  "dependencies": {
+    "async-constructor": "^0.1.0",
+    "create-hash": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
 }
