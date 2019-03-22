@@ -1,4 +1,4 @@
-const math = require('../../src/math');
+const math = require('../src/math');
 
 describe('Math', () => {
   describe('#isInteger', () => {

@@ -1,4 +1,4 @@
-const random = require('../../src/math/random');
+const random = require('../src/math/random');
 
 describe('Random', () => {
   describe('#getFloat', () => {
