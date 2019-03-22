@@ -15,7 +15,7 @@ const strToHex = (str) => {
 }
 
 const hexToStr = (hex) => {
-  assert(typeof hex == 'string' && this.isHex(hex), `${hex} is not a hex string.`);
+  assert(typeof hex == 'string' && isHex(hex), `${hex} is not a hex string.`);
   return new Buffer(hex, 'hex').toString();
 }
 
