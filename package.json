@@ -25,6 +25,6 @@
     "create-hash": "^1.2.0"
   },
   "devDependencies": {
-    "jest": "^24.5.0"
+    "jest": "^25.2.1"
   }
 }
