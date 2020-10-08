@@ -1,3 +1,5 @@
+'use strict';
+
 const assert = require('assert');
 const random = require('./random');
 
@@ -10,13 +12,13 @@ const isHex = (value) => {
 }
 
 const strToHex = (str) => {
-  assert(typeof str == 'string', `${str} is not a string.`);
-  return new Buffer(str).toString('hex');
+  assert(typeof str === 'string', `${str} is not a string.`);
+  return Buffer.from(str).toString('hex');
 }
 
 const hexToStr = (hex) => {
-  assert(typeof hex == 'string' && isHex(hex), `${hex} is not a hex string.`);
-  return new Buffer(hex, 'hex').toString();
+  assert(typeof hex === 'string' && isHex(hex), `${hex} is not a hex string.`);
+  return Buffer.from(hex, 'hex').toString();
 }
 
 module.exports = {

@@ -25,6 +25,18 @@ describe('Random', () => {
       expect(int).toBeLessThanOrEqual(4);
     });
   });
+  describe('#getSecureInt', () => {
+    it('Should return correct value between 0 and 2', () => {
+      let int = parseInt(random.getSecureInt(2));
+      expect(int).toBeGreaterThanOrEqual(0);
+      expect(int).toBeLessThanOrEqual(2);
+    });
+    it('Should return correct integer value between 3 and 4', () => {
+      let int = parseInt(random.getSecureInt(3, 4));
+      expect(int).toBeGreaterThanOrEqual(3);
+      expect(int).toBeLessThanOrEqual(4);
+    });
+  });
   describe('#getBool', () => {
     it('Should return true/false', () => {
       expect(typeof random.getBool()).toBe('boolean');
