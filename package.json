@@ -1,6 +1,6 @@
 {
   "name": "mingtool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some handy tools",
   "main": "index.js",
   "scripts": {
